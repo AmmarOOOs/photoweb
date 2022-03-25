@@ -1,0 +1,60 @@
+﻿
+@model IEnumerable<FlowerShop.Models.FlowerBou>
+
+@{
+    ViewData["Title"] = "Flower";
+}
+
+
+
+
+ <form asp-action="Flower" method="get" class="row">
+       
+
+
+        <div class="form-group col-4 py-5" >
+            <div class="form-group">
+                <select name="OccasionId"class="form-control" asp-items="ViewBag.Occasions"></select>
+            </div>
+
+          
+        </div>
+
+       
+        <div class="col-lg-6  py-5">
+            <button type="submit" class="btn btn-primary btn-md text-center ml-5 ">Search</button>
+
+        </div>
+    </form>
+
+
+<main>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                @foreach (var item in Model)
+                {
+                    <div class="col">
+                        <div class="card shadow-sm">
+<img src="@item.ImageUrl" />
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+
+            </div>
+        </div>
+    </div>
+
+</main>

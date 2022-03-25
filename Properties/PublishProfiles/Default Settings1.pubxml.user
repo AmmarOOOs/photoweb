@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlNNxxEuGs0aYFXqonvkbPgAAAAACAAAAAAAQZgAAAAEAACAAAADy9N/7ThNSFhbPzYajpA71/hL6fLZjVvAgbT5v/GNZNgAAAAAOgAAAAAIAACAAAAAOs8yCxm6kpZu8L8H4WetIzUYLuYmK1V/z2PgqdlUh+iAAAACV6yJpwNXsrNs7jmUpAYkyf7Fs1w1IXhPbbMpbwe1gQ0AAAACq1J7lKShgZz0dzyARWtB6OZRIzyxonjVRkcXPTkSsPvlCoBYIhHHfoLCCX6ACIcpr2ZVB1mVFOJJqzGK5EsiT</EncryptedPassword>
+    <History>True|2021-10-30T22:56:07.5339338Z;False|2021-10-31T00:36:54.8365034+02:00;False|2021-10-31T00:35:33.4572026+02:00;False|2021-10-31T00:31:59.2723688+02:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=localhost%3bDatabase=shop%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
